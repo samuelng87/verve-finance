@@ -1,5 +1,5 @@
 
-    <button class="open-modal-btn">Book Consultation</button>
+    <button class="open-modal-btn">Enquire Now</button>
     <div id="formModal" class="modal">
         <div class="modal-content">
             <span class="close-btn">×</span>

@@ -13,6 +13,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="css/banner.css">
+
 
 
 
@@ -22,8 +24,8 @@
 <body>
 
     <div class="home-banner">
-
         <?php include('components/nav.php'); ?>
+        <?php include('components/banner-contents.php'); ?>
 
             </div>
             <div class="section1">
@@ -35,8 +37,6 @@
             <div class="section3">
             section3
             </div>
-
-        
 
 
 </body>
