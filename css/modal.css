@@ -50,19 +50,36 @@
 
 /* Button styles */
 .open-modal-btn {
-  background-color: #f36f20;
+  background: linear-gradient(45deg, #f36f20, #ff8c40, #f36f20);
+  background-size: 200% auto;
   color: #fff;
   padding: 12px 24px;
   border: none;
   border-radius: 15px;
   font-size: 16px;
   cursor: pointer;
-  transition: background-color 0.3s;
+  transition: all 0.3s;
+  animation: gradient-animation 3s ease infinite;
 }
 
 .open-modal-btn:hover {
-  background-color: #d95e1b;
-  padding: 13px 25px;
+  background: linear-gradient(45deg, #626466, #7a7c7e, #626466);
+  background-size: 200% auto;
+  animation: gradient-animation 3s ease infinite;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 /* HubSpot form container */

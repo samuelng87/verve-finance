@@ -1,8 +1,3 @@
-<?php
-    session_start();
-?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,20 +9,12 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/modal.css">
     <link rel="stylesheet" href="css/banner.css">
-
-
-
-
-
-
+    <link rel="stylesheet" href="css/footer.css">
 </head>
 <body>
+    <!-- navbar and content are inside the banner -->
+    <?php include('components/banner.php'); ?> 
 
-    <div class="home-banner">
-        <?php include('components/nav.php'); ?>
-        <?php include('components/banner-contents.php'); ?>
-
-            </div>
             <div class="section1">
             section1
             </div>
@@ -37,6 +24,7 @@
             <div class="section3">
             section3
             </div>
+            <?php include('components/footer.php'); ?> 
 
 
 </body>
