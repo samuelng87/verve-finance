@@ -64,14 +64,6 @@ body {
 
 /* Mobile specific styles */
 @media (max-width: 768px) {
-  .home-banner {
-    background-image: url(../images/banner-image.jpg);
-    background-repeat: no-repeat;
-    background-position: 70% center !important; /* Force position change with !important */
-    background-size: cover;
-    height: 100vh;
-  }
-
   .verve-logo {
     height: 50px; /* Slightly smaller on mobile */
   }

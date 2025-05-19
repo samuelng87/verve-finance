@@ -1,5 +1,5 @@
 /* Modal styles */
-.modal {
+.custom-modal {
   display: none;
   position: fixed;
   top: 0;
@@ -17,12 +17,12 @@
     visibility 0.1s ease;
 }
 
-.modal.show {
+.custom-modal.show {
   opacity: 1;
   visibility: visible;
 }
 
-.modal-content {
+.custom-modal-content {
   background-color: #fff;
   max-width: 600px;
   width: 100%;
@@ -90,11 +90,11 @@
 }
 
 @media (max-width: 768px) {
-  .modal {
+  .custom-modal {
     align-items: center;
   }
 
-  .modal-content {
+  .custom-modal-content {
     margin: 5px;
   }
 }

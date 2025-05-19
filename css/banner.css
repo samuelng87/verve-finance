@@ -15,6 +15,10 @@
   background-image: url(../images/banner-image.jpg);
 }
 
+.about-banner {
+  background-image: url(../images/banner-about.jpg);
+}
+
 .banner-content {
   padding: 4rem 2rem;
   max-width: 700px;
@@ -24,15 +28,44 @@
 }
 
 .banner-content h1 {
-  font-size: 5.5rem;
+  font-size: 5rem;
   font-weight: 700;
   line-height: 1;
   color: #ffffff;
   margin-bottom: 1rem;
 }
 
+.banner-content .banner-content-span {
+  color: #f36f20;
+  background: linear-gradient(45deg, #f36f20, #ff8c40, #e6661c, #f36f20);
+  background-size: 300% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: gradient-text 3s ease infinite;
+  font-weight: 200;
+  transition: all 3s ease;
+}
+
+.banner-content .banner-content-span:hover {
+  background-position: 100% 50%;
+  font-weight: bolder;
+}
+
+@keyframes gradient-text {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 .banner-content p {
-  font-size: 1.25rem;
+  font-size: 0.9rem;
   color: #ffffff;
   margin-bottom: 2rem;
 }
@@ -51,13 +84,27 @@
 }
 
 .primary-btn {
-  background-color: #f36f20; /* Yellow color */
+  background: linear-gradient(45deg, #cd5611, #ff8c40, #f36f20);
   color: #ffffff;
+  transition: all 0.3s;
+  animation: gradient-animation 3s ease infinite;
 }
 
 .primary-btn:hover {
-  background-color: #ba4907;
+  background: linear-gradient(45deg, #405e8b, #626466, #34404c);
   color: #ffffff;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 .secondary-btn {
@@ -68,8 +115,29 @@
 
 .secondary-btn:hover {
   background-color: rgba(255, 215, 0, 0.1);
+  border: 2px solid #626466;
+  color: #626466;
 }
 
+.banner-info {
+  color: #ffffff;
+  background-color: rgb(51, 51, 51);
+  width: 100%;
+  margin: 0 0 0 0;
+  padding: 0;
+  text-align: end;
+}
+
+.banner-info p {
+  font-size: 10px;
+  margin-right: 10px;
+  padding: 3px;
+}
+
+.banner-info p span {
+  color: #f36f20;
+  font-weight: 900;
+}
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .banner {
@@ -81,6 +149,18 @@
 
   .home-banner {
     background-image: url(../images/banner-image.jpg);
+    background-repeat: no-repeat;
+    background-position: 70% center !important; /* Force position change with !important */
+    background-size: cover;
+    height: 90vh;
+  }
+
+  .home-banner {
+    background-image: url(../images/banner-image.jpg);
+  }
+
+  .about-banner {
+    background-image: url(../images/banner-about.jpg);
   }
 
   .banner::before {
@@ -105,7 +185,10 @@
   }
 
   .banner-content h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
+  }
+  .banner-content p {
+    font-size: 1rem;
   }
 
   .button-group {
@@ -115,5 +198,13 @@
   .btn {
     width: 60%;
     text-align: center;
+  }
+
+  .banner-info {
+    text-align: center;
+  }
+
+  .banner-info p {
+    margin-right: 0;
   }
 }

@@ -96,6 +96,7 @@
   animation-name: footer;
   animation-duration: 1s;
   animation-iteration-count: infinite;
+  font-weight: 200;
 }
 
 @keyframes example {
