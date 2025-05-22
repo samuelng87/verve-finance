@@ -86,22 +86,20 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 15vh;
+  height: 50vh;
   width: 100%;
-  font-size: 7px;
+  font-size: 15px;
   color: #f36f20;
-  font-weight: bold;
+  font-weight: lighter;
 }
 
-/* ------ LOADER ----- */
-
 .loader {
-  border: 10px solid #f3f3f3; /* Light grey */
-  border-top: 10px solid #f36f20; /* ORANGE */
+  border: 15px solid #f3f3f3; /* Light grey */
+  border-top: 15px solid #f36f20; /* ORANGE */
   border-radius: 50%;
-  width: 100px;
-  height: 100px;
-  animation: spin 3s linear infinite;
+  width: 300px;
+  height: 300px;
+  animation: spin 2s linear infinite;
   position: absolute;
 }
 

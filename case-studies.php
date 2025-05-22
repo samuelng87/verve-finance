@@ -10,15 +10,12 @@
     <link rel="stylesheet" href="css/modal.css">
     <link rel="stylesheet" href="css/banner.css">
     <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/loan.css">
+    <link rel="stylesheet" href="css/studies-case.css">
 </head>
 <body>
     <!-- navbar and content are inside the banner -->
     <?php include('components/case-studies-banner.php'); ?> 
-    <div class="progress-container">
-       <div class="loader"></div>
-       Building in progress
-    </div>
+    <?php include('components/case-studies-content.php'); ?> 
     <?php include('components/footer.php'); ?> 
 
 </body>

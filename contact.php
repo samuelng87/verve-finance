@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="css/modal.css">
     <link rel="stylesheet" href="css/banner.css">
     <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/loan.css">
     <link rel="stylesheet" href="css/contact.css">
 </head>
 <body>
