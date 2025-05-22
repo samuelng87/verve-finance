@@ -1,4 +1,7 @@
-<div class="credential-container-flex">
+<div class="header-text">
+    <h1>WE ARE FULLY <span >ACCREDITED</span> </h1>
+</div>
+<div class="credential-container-flex">    
     <div class="credential-container">
         <!-- First Item -->
         <div class="item">

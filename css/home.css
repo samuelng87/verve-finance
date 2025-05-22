@@ -8,42 +8,13 @@ html {
   scroll-margin-top: 100px; /* Adjust this value based on your header height */
 }
 
-.header-text {
-  text-align: center;
-  color: #626466;
-  margin: 3rem;
-}
-
-.header-text span {
-  color: #f36f20;
-  background: linear-gradient(45deg, #f36f20, #ff8c40, #e6661c, #f36f20);
-  background-size: 300% auto;
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  animation: gradient-text 3s ease infinite;
-  font-weight: 200;
-}
-
-@keyframes gradient-text {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
 .services-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 70px;
   max-width: 1400px;
   margin: 1rem auto;
-  padding: 10px 0px 0rem 0px;
+  padding: 10px 0px 2.5rem 0px;
 }
 
 /* Second row - 3 columns */
@@ -149,7 +120,7 @@ html {
 
 .credential-container {
   padding: 3px 3px;
-  margin: 10rem 0 2rem 0;
+  margin: 0.5rem 0 2rem 0;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 17rem;

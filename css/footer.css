@@ -495,4 +495,8 @@
     flex-direction: column;
     gap: 10px;
   }
+
+  .footer-col ul li iframe {
+    display: none;
+  }
 }

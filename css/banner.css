@@ -2,9 +2,8 @@
 .banner {
   position: relative;
   background-repeat: no-repeat;
-  background-position: left;
+  background-position: top;
   background-size: cover;
-  height: 90vh;
   width: 100%;
   display: flex;
   align-items: center;
@@ -13,10 +12,74 @@
 
 .home-banner {
   background-image: url(../images/banner-image.jpg);
+  height: 88vh;
 }
 
 .about-banner {
   background-image: url(../images/banner-about.jpg);
+  height: 70vh;
+}
+
+.loan-banner {
+  background-image: url(../images/banner-loan.jpg);
+  height: 70vh;
+}
+
+.case-studies-banner {
+  background-image: url(../images/banner-case-studies.jpg);
+  height: 70vh;
+}
+
+.contact-banner {
+  background-image: url(../images/banner-contact.jpg);
+  height: 98vh;
+}
+
+.refinance-banner {
+  background-image: url(../images/banner-refinance.jpg);
+  height: 70vh;
+}
+
+.about-banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    to right,
+    rgba(79, 39, 8, 0.5) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+.loan-banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    to right,
+    rgba(79, 39, 8, 0.5) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+.refinance-banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.7) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
 }
 
 .banner-content {
@@ -65,9 +128,11 @@
 }
 
 .banner-content p {
-  font-size: 0.9rem;
+  font-size: 1.2rem;
   color: #ffffff;
   margin-bottom: 2rem;
+  font-weight: 100;
+  text-align: justify;
 }
 
 .button-group {
@@ -130,8 +195,9 @@
 
 .banner-info p {
   font-size: 10px;
-  margin-right: 10px;
-  padding: 3px;
+  margin: 0px;
+  padding: 3px 10px 3px 0;
+  color: #ffffff;
 }
 
 .banner-info p span {
@@ -144,23 +210,39 @@
     background-repeat: no-repeat;
     background-position: 70% center !important; /* Force position change with !important */
     background-size: cover;
-    height: 80vh;
+    align-items: center;
+    justify-content: center;
   }
 
+  /* Mobile responsive */
   .home-banner {
     background-image: url(../images/banner-image.jpg);
-    background-repeat: no-repeat;
-    background-position: 70% center !important; /* Force position change with !important */
-    background-size: cover;
-    height: 90vh;
-  }
-
-  .home-banner {
-    background-image: url(../images/banner-image.jpg);
+    height: 70vh;
   }
 
   .about-banner {
     background-image: url(../images/banner-about.jpg);
+    height: 70vh;
+  }
+
+  .loan-banner {
+    background-image: url(../images/banner-loan.jpg);
+    height: 70vh;
+  }
+
+  .case-studies-banner {
+    background-image: url(../images/banner-case-studies.jpg);
+    height: 70vh;
+  }
+
+  .contact-banner {
+    background-image: url(../images/banner-contact.jpg);
+    height: 98vh;
+  }
+
+  .refinance-banner {
+    background-image: url(../images/banner-refinance.jpg);
+    height: 70vh;
   }
 
   .banner::before {
@@ -176,6 +258,7 @@
       rgba(0, 0, 0, 0.5) 100%
     );
   }
+
   .banner-content {
     padding: 4rem 2rem;
     max-width: 600px;
@@ -206,5 +289,13 @@
 
   .banner-info p {
     margin-right: 0;
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 380px) {
+  .contact-banner {
+    background-image: url(../images/banner-contact.jpg);
+    height: 120vh;
   }
 }

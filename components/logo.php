@@ -1,7 +1,7 @@
 <div class="partner-container">
         <div class="partner-content">
             <h1>Our Lenders</h1>
-            <p>We collaborate with more than 35 trusted lenders, 
+            <p>We collaborate with more than 60 trusted lenders, 
                 providing access to thousands of diverse mortgage products tailored to your unique needs. 
                 Whether you're purchasing your first home, investing in a property, refinancing an existing loan, 
                 or financing a construction project, our extensive network and expertise ensure we can confidently 
@@ -43,9 +43,5 @@
             <img src="images/mp.png" alt="partner31">
             <img src="images/pp.png" alt="partner20">
             <img src="images/lf.png" alt="partner27">
-
-
-
-
         </div>  
     </div>

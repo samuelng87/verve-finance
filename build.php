@@ -16,10 +16,8 @@
     <!-- navbar and content are inside the banner -->
     <?php include('components/banner.php'); ?> 
     <?php include('components/home-grid.php'); ?> 
-
     <?php include('components/credentials.php'); ?> 
     <?php include('components/logo.php'); ?> 
-
     <?php include('components/footer.php'); ?> 
 
 </body>

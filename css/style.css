@@ -6,7 +6,7 @@
 body {
   padding: 0;
   margin: 0;
-  animation: 1s mymove1;
+  animation: 0.5s mymove1;
 }
 
 /* ------ special effect ----- */
@@ -26,6 +26,8 @@ body {
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
   z-index: 1;
+  color: #626466;
+  font-weight: 550;
 }
 
 .verve-logo {
@@ -48,6 +50,68 @@ body {
   background-color: #637282;
   text-transform: uppercase;
   color: #ffffff;
+}
+
+.header-text {
+  text-align: center;
+  color: #626466;
+  margin: 3rem;
+  text-transform: uppercase;
+}
+
+.header-text span {
+  color: #f36f20;
+  background: linear-gradient(45deg, #f36f20, #ff8c40, #e6661c, #f36f20);
+  background-size: 300% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: gradient-text 3s ease infinite;
+  font-weight: 200;
+}
+
+@keyframes gradient-text {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.progress-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15vh;
+  width: 100%;
+  font-size: 7px;
+  color: #f36f20;
+  font-weight: bold;
+}
+
+/* ------ LOADER ----- */
+
+.loader {
+  border: 10px solid #f3f3f3; /* Light grey */
+  border-top: 10px solid #f36f20; /* ORANGE */
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  animation: spin 3s linear infinite;
+  position: absolute;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 @media (max-width: 1400px) {
@@ -75,5 +139,9 @@ body {
     padding: 20px;
     top: 0px;
     box-shadow: none;
+  }
+
+  .header-text h1 {
+    font-size: 1.3rem;
   }
 }

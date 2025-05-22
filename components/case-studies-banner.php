@@ -1,8 +1,8 @@
-<div class="banner about-banner">
+<div class="banner case-studies-banner">
 <?php include('components/nav.php'); ?> 
 <div class="banner-content fade-background">
-<h1>ABOUT <span class="banner-content-span"> VERVE</span></h1>
-<p>Verve Finance is an Australian owned</p>
+<h1> Case Studies</h1>
+<p>Your Financial Journey with Verve.</p>
     </div>
 </div>
 <div class="banner-info">

@@ -1,0 +1,67 @@
+.contact-form {
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.4);
+  background-color: #626466;
+  border-radius: 20px;
+  padding: 10px;
+  transition: all 0.3s ease;
+  width: 600px;
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  height: 630px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+}
+
+.contact-form:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+}
+
+/* Hide Enquire Now button only in contact banner */
+.contact-banner .open-modal-btn {
+  display: disable; /* This will completely hide the button */
+}
+
+/* OR if you want to show it but disable it: */
+.contact-banner .open-modal-btn {
+  opacity: 0.5;
+  pointer-events: none;
+  cursor: not-allowed;
+}
+
+.cover-loader {
+  z-index: 1;
+}
+
+.loader {
+  border: 10px solid #f3f3f3; /* Light grey */
+  border-top: 10px solid #f36f20; /* ORANGE */
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  animation: spin 0.7s linear infinite;
+  position: absolute;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-form {
+    width: 95%;
+    top: 20%;
+    left: 2.5%;
+  }
+  .contact-banner .open-modal-btn {
+    display: none; /* This will completely hide the button */
+  }
+}

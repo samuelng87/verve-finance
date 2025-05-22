@@ -1,5 +1,5 @@
 
-    <button class="open-modal-btn">Enquire Now</button>
+    <button class="open-modal-btn">ENQUIRE NOW</button>
     <div id="formModal" class="custom-modal">
         <div class="custom-modal-content">
             <span class="close-btn">×</span>

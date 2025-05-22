@@ -9,28 +9,28 @@
     <div class="collapse navbar-collapse" id="navbarScroll">
       <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100%;">
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="financesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" href="loan.php" id="financesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             FINANCES
           </a>
           <ul class="dropdown-menu" aria-labelledby="financesDropdown">
-            <li><a class="dropdown-item" href="#">Home Loan</a></li>
+            <li><a class="dropdown-item" href="loan.php">Home Loan</a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Business Loan</a></li>
+            <li><a class="dropdown-item" href="loan.php">Business Loan</a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Commercial Loan</a></li>
+            <li><a class="dropdown-item" href="loan.php">Commercial Loan</a></li>
           </ul>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="about.php">ABOUT <span style="color:#F36F20; font-size:17px;">VERVE</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">WHY REFINANCE?</a>
+          <a class="nav-link" href="refinance.php">WHY REFINANCE?</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">CASE STUDIES</a>
+          <a class="nav-link" href="case-studies.php">CASE STUDIES</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">CONTACT US</a>
+          <a class="nav-link" href="contact.php">CONTACT US</a>
         </li>
       </ul>
       <?php include('components/modal.php'); ?>
