@@ -112,12 +112,6 @@ body {
   }
 }
 
-@media (max-width: 1400px) {
-  .navbar {
-    width: 90%;
-  }
-}
-
 @media (max-width: 1050px) {
   .navbar {
     width: 100%;

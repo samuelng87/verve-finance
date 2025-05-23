@@ -1,0 +1,77 @@
+.refinance-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0px 20px 5rem 20px;
+}
+.refinance-container .header p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.cards {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  justify-content: start;
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+  border: 1px solid #d3d9df;
+}
+
+.cards:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+}
+
+.cards h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #626466;
+}
+
+.cards p {
+  font-size: 1.3rem;
+  color: #626466;
+  font-weight: 200;
+}
+
+.cards a {
+  display: inline-block;
+  margin-top: 20px;
+  color: #f36f20;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1rem;
+  padding-left: 10px;
+  bottom: 3px;
+  position: relative;
+}
+
+.cards a:hover {
+  text-decoration: none;
+  color: #626466;
+}
+
+/* Mobile specific styles */
+@media (max-width: 768px) {
+  .cards h2 {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  .cards p {
+    font-size: 0.7rem;
+    color: #626466;
+    font-weight: 300;
+  }
+}

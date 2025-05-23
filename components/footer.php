@@ -17,9 +17,6 @@
                     <a href="#"><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
-
-
-
             <!-- Contact Column -->
             <div class="footer-col">
                 <h4>Contact Us</h4>
@@ -29,10 +26,8 @@
                        Mon–Fri: 9:30 AM – 6:00 PM<br>
                        Sat–Sun: Closed</li>
                        <li><i class="fas fa-envelope"></i> info@vervefinance.com.au</li>
-
                 </ul>
             </div>
-
                 <!-- Map Column -->
                 <div class="footer-col">
                 <ul>
@@ -49,7 +44,7 @@
         </div>
     </div>
     <div class="footer-bottom">
-        <p>  Verve Finance 2025 &copy; All rights reserved.</p>
+        <p>  Verve Group Pty Ltd 2025 &copy; All rights reserved.</p>
         <!-- <div class="footer-bottom-links">
             <a href="#">Privacy Policy</a>
             <a href="#">Terms of Service</a>

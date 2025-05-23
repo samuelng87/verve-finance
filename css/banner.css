@@ -12,7 +12,7 @@
 
 .home-banner {
   background-image: url(../images/banner-image.jpg);
-  height: 88vh;
+  height: 98.1vh;
 }
 
 .about-banner {
@@ -217,7 +217,7 @@
   /* Mobile responsive */
   .home-banner {
     background-image: url(../images/banner-image.jpg);
-    height: 70vh;
+    height: 97.7vh;
   }
 
   .about-banner {

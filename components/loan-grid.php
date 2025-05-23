@@ -1,5 +1,5 @@
 <div class="header-text">
-    <h1>HOME & COMMERCIAL LOANS</h1>
+    <h1>HOME & COMMERCIAL <span class="text-orange">LOANS</span></h1>
     </div>
     <div class="grid-container">
     <!-- First Row: 3 Items -->
@@ -27,5 +27,5 @@
     </div>
     </div>
     <div class="header-text">
-    <h1>Specialized Financial Solutions</h1>
+    <h1>Specialized Financial <span class="text-orange">Solutions</span></h1>
     </div>

@@ -13,11 +13,12 @@
   background-color: #fff;
   padding: 30px;
   border-radius: 10px;
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
   height: 100%;
   display: flex;
   flex-direction: column;
   transition: all 0.3s ease;
+  border: 1px solid #d3d9df;
 }
 
 .grid-item:hover {
@@ -97,7 +98,7 @@
 
 .grid-item h3 {
   margin: 0;
-  color: #f36f20;
+  color: #626466;
   font-size: 1.7rem;
   margin: 0;
   padding-bottom: 5px; /* Space between text and underline */
