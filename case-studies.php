@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/modal.css">
     <link rel="stylesheet" href="css/banner.css">
     <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/studies-case.css">
+    <link rel="stylesheet" href="css/case-studies.css">
 </head>
 <body>
     <!-- navbar and content are inside the banner -->

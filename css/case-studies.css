@@ -9,6 +9,12 @@
     padding: 1rem;
     max-width: 100%;
   }
+  .case-container h2 {
+    color: #626466;
+    font-size: 1.1rem;
+    text-align: left;
+    font-weight: 500;
+  }
 }
 .case-content {
   display: grid;
@@ -27,6 +33,7 @@
 table {
   width: 100%;
   border-collapse: collapse;
+  border: 1px solid #d3d9df;
 }
 th,
 td {
@@ -48,6 +55,7 @@ th {
   padding: 1rem 1rem 0.8rem 1rem;
   border-radius: 0.5rem;
   margin-top: 1rem;
+  border: 1px solid #9dc088;
 }
 @media (max-width: 768px) {
   th,
