@@ -17,7 +17,7 @@ body {
 }
 
 .navbar {
-  border-radius: 15px;
+  border-radius: 30px;
   padding: 20px;
   width: 85%;
   position: absolute;
@@ -28,28 +28,33 @@ body {
   z-index: 2;
   color: #626466;
   font-weight: 550;
+  border: 2px solid #cbd3db;
 }
 
 .verve-logo {
-  height: 70px; /* Adjust this value to match your desired logo size */
+  height: 50px; /* Adjust this value to match your desired logo size */
   width: auto;
   object-fit: contain;
   margin-right: 50px;
 }
 
 .dropdown-menu {
-  background-color: #626466;
+  border-radius: 20px;
+  background-color: rgba(98, 100, 102, 0.9);
+  padding: 10px;
 }
 
 .dropdown-menu a {
   color: #ffffff;
   text-transform: uppercase;
+  font-size: 15px;
 }
 
 .dropdown-menu a:hover {
-  background-color: #637282;
+  background-color: #f36f20;
   text-transform: uppercase;
   color: #ffffff;
+  border-radius: 10px;
 }
 
 .header-text {
@@ -121,16 +126,26 @@ body {
 /* Mobile specific styles */
 @media (max-width: 768px) {
   .verve-logo {
-    height: 50px; /* Slightly smaller on mobile */
+    height: 30px; /* Slightly smaller on mobile */
   }
 
   .navbar {
-    border-radius: 0px;
-    padding: 20px;
-    width: 100%;
-    padding: 20px;
-    top: 0px;
+    border-radius: 20px;
+    width: 95%;
+    padding: 13px 10px 13px 5px;
+    top: 10px;
     box-shadow: none;
+    border: 1px solid #626466;
+    box-shadow: 7px 7px 5px 0px rgba(0, 0, 0, 0.5);
+    position: fixed;
+  }
+
+  .navbar-toggler {
+    font-size: 18px;
+  }
+
+  .navbar-collapse {
+    padding: 10px;
   }
 
   .header-text h1 {

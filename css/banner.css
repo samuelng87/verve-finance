@@ -2,7 +2,6 @@
 .banner {
   position: relative;
   background-repeat: no-repeat;
-  background-position: top;
   background-size: cover;
   width: 100%;
   display: flex;
@@ -208,7 +207,6 @@
 @media (max-width: 768px) {
   .banner {
     background-repeat: no-repeat;
-    background-position: 70% center !important; /* Force position change with !important */
     background-size: cover;
     align-items: center;
     justify-content: center;
@@ -218,31 +216,37 @@
   .home-banner {
     background-image: url(../images/banner-image.jpg);
     height: 97.7vh;
+    background-position: 85% center !important; /* Force position change with !important */
   }
 
   .about-banner {
     background-image: url(../images/banner-about.jpg);
     height: 70vh;
+    background-position: 75% center !important; /* Force position change with !important */
   }
 
   .loan-banner {
     background-image: url(../images/banner-loan.jpg);
     height: 70vh;
+    background-position: 70% center !important; /* Force position change with !important */
   }
 
   .case-studies-banner {
     background-image: url(../images/banner-case-studies.jpg);
     height: 70vh;
+    background-position: 30% center !important; /* Force position change with !important */
   }
 
   .contact-banner {
     background-image: url(../images/banner-contact.jpg);
     height: 105vh;
+    background-position: 60% center !important; /* Force position change with !important */
   }
 
   .refinance-banner {
     background-image: url(../images/banner-refinance.jpg);
     height: 70vh;
+    background-position: 70% center !important; /* Force position change with !important */
   }
 
   .banner::before {
@@ -290,6 +294,7 @@
   .banner-info p {
     margin-right: 0;
     font-size: 9px;
+    padding: 3px 0 3px 0;
   }
 }
 

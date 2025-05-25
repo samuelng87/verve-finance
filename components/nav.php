@@ -23,11 +23,15 @@
         <li class="nav-item">
           <a class="nav-link" href="about.php">ABOUT <span style="color:#F36F20; font-size:17px;">VERVE</span></a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="refinance.php">WHY REFINANCE?</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="case-studies.php">CASE STUDIES</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="loan.php" id="financesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            REFINANCES
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="financesDropdown">
+            <li><a class="dropdown-item" href="refinance.php">WHY REFINANCE?</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="case-studies.php">CASE STUDIES</a></li>
+          </ul>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="contact.php">CONTACT US</a>
