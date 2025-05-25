@@ -469,7 +469,7 @@
    ============================================= */
 .footer-container {
   position: relative;
-  z-index: 2;
+  z-index: 1;
 }
 
 .footer-bottom {
@@ -498,5 +498,8 @@
 
   .footer-col ul li iframe {
     display: none;
+  }
+  .footer-col .footer-logo {
+    height: 70px;
   }
 }

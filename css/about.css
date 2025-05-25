@@ -1,0 +1,45 @@
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1450px;
+  margin: 0 auto;
+  color: #626262;
+  text-align: justify;
+  flex-direction: column;
+  width: 100%;
+}
+
+.about-item {
+  flex: 1;
+  padding: 0rem 2rem 2rem 2rem;
+}
+
+.about-item p {
+  font-size: 1.2rem;
+  text-align: justify;
+  font-weight: 100;
+}
+
+/* Mobile specific styles */
+@media (max-width: 768px) {
+  .about-container {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    padding-bottom: 5rem;
+    max-width: 1400px;
+    margin: 0 auto;
+    color: #626262;
+    text-align: justify;
+    padding: 0;
+  }
+
+  .about-item h1 {
+    font-size: 1.2rem;
+  }
+
+  .about-item p {
+    font-size: 0.9rem;
+  }
+}

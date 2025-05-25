@@ -1,7 +1,9 @@
 <div class="banner contact-banner">
 <?php include('components/nav.php'); ?> 
 <div class="banner-content fade-background">
+    
 <div>
+
 </div>
     </div>
 </div>

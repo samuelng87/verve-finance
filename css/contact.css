@@ -1,18 +1,15 @@
 .contact-form {
-  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.4);
-  background-color: #626466;
   border-radius: 20px;
-  padding: 10px;
   transition: all 0.3s ease;
-  width: 600px;
+  width: 500px;
   position: absolute;
   top: 25%;
-  left: 10%;
-  height: 630px;
+  left: 15%;
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 0;
+  z-index: 1;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
 }
 
 .contact-form:hover {
@@ -44,6 +41,7 @@
   height: 100px;
   animation: spin 0.7s linear infinite;
   position: absolute;
+  top: 200px;
 }
 
 @keyframes spin {
