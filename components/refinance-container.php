@@ -2,7 +2,6 @@
     <h1>BENEFITS OF <span >REFINANCING</span> </h1>
     </div>
     <div class="refinance-container">
-
      <div class="card-container">
         <div class="cards">
             <p>If you are looking for a new loan with a better rate and more features or would like to consolidate 
