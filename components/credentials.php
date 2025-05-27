@@ -56,7 +56,7 @@
                 <!-- Third Item -->
         <div class="item">
             <div>
-                <a data-bs-toggle="modal" data-bs-target="#mfaaModal">
+                <a data-bs-toggle="modal"  data-bs-target="#mfaaModal disabled" style="pointer-events: none; cursor: not-allowed;">
                     <img src="images/mfaalogo.png" alt="fbaalogo">
                 </a>
                 <!-- FBAA Modal -->
@@ -81,7 +81,7 @@
                 <!-- four Item -->
                 <div class="item">
             <div>
-                <a data-bs-toggle="modal" data-bs-target="#omModal">
+                <a data-bs-toggle="modal" data-bs-target="#omModal disabled" style="pointer-events: none; cursor: not-allowed;">
                     <img src="images/CreditOmbudsmanlogo.png" alt="omlogo">
                 </a>
                 <!-- OM Modal -->

@@ -1,7 +1,8 @@
 <div class="banner home-banner">
 <?php include('components/nav.php'); ?> 
 <div class="banner-content">
-<h1 >WELCOME TO <br> <span class="banner-content-span">VERVE</span> FINANCE</h1>
+<h1 >WELCOME TO <br> <span class="banner-content-span">
+VERVE</span> FINANCE</h1>
 <p>At Verve Finance we understand that investing in a home or property is an important step in everyone's lives, 
     our main mission is to find the best finance solutions to suit our clients.</p>    
     <div class="button-group">

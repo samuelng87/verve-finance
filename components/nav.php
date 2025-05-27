@@ -70,4 +70,5 @@ document.addEventListener('click', function (event) {
     dropdownMenu.classList.remove('show');
   }
 });
+
 </script>

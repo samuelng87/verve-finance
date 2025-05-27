@@ -15,6 +15,7 @@
                     <a href="#"><i class="fab fa-x"></i></a>
                     <a href="#"><i class="fab fa-linkedin-in"></i></a>
                     <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.vervefinance.com.au/legacy.html" target="_blank"><i class="fas fa-globe"></i></a>
                 </div>
             </div>
             <!-- Contact Column -->
@@ -26,6 +27,7 @@
                        Mon–Fri: 9:30 AM – 6:00 PM<br>
                        Sat–Sun: Closed</li>
                        <li><i class="fas fa-envelope"></i> info@vervefinance.com.au</li>
+                       <li></li>
                 </ul>
             </div>
                 <!-- Map Column -->

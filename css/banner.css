@@ -216,7 +216,7 @@
   .home-banner {
     background-image: url(../images/banner-image.jpg);
     height: 97.7vh;
-    background-position: 85% center !important; /* Force position change with !important */
+    background-position: 75% center !important; /* Force position change with !important */
   }
 
   .about-banner {
