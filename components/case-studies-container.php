@@ -23,8 +23,8 @@
                             <tr>
                                 <td>Home Loan</td>
                                 <td>$400,000.00</td>
-                                <td>7.24%</td>
-                                <td>$2,725.99</td>
+                                <td>5.99%</td>
+                                <td>$2,395.63</td>
                             </tr>
                             <tr>
                                 <td>Car Loan</td>
@@ -35,7 +35,7 @@
                             <tr>
                                 <td>Credit Card 1</td>
                                 <td>$20,000.00</td>
-                                <td>22.50%</td>
+                                <td>19.50%</td>
                                 <td>$375.00</td>
                             </tr>
                             <tr>
@@ -47,14 +47,14 @@
                             <tr>
                                 <td>Personal Loan</td>
                                 <td>$10,000.00</td>
-                                <td>16.00%</td>
+                                <td>6.54%</td>
                                 <td>$133.33</td>
                             </tr>
                             <tr>
                                 <td><strong>Total Monthly Repayment</strong></td>
                                 <td></td>
                                 <td></td>
-                                <td><strong>$3,645.37</strong></td>
+                                <td><strong>$3,315.00</strong></td>
                             </tr>
                         </tbody>
                     </table>
@@ -64,8 +64,8 @@
                         By consolidating all credit card debts, the car loan, and the personal loan into their home loan, Peter and Susan:
                     </p>
                     <ul class="list-disc list-inside text-gray-600 mt-2">
-                        <li>Reduced their monthly repayments by <span class="highlight">$408.25</span>.</li>
-                        <li>Eliminated high-interest debts (up to 22.50%).</li>
+                        <li>Reduced their monthly repayments by <span class="highlight">$470.19</span>.</li>
+                        <li>Eliminated high-interest debts (up to 19.50%).</li>
                         <li>Freed up cash flow to invest in an investment property.</li>
                         <li>Created a clear path to plan for retirement.</li>
                     </ul>
@@ -88,14 +88,14 @@
                             <tr>
                                 <td>Home Loan</td>
                                 <td>$475,000.00</td>
-                                <td>7.24%</td>
-                                <td>$3,237.12</td>
+                                <td>5.99%</td>
+                                <td>$2,844.81</td>
                             </tr>
                             <tr>
                                 <td><strong>Total Monthly Repayment</strong></td>
                                 <td></td>
                                 <td></td>
-                                <td><strong>$3,237.12</strong></td>
+                                <td><strong>$2,844.81</strong></td>
                             </tr>
                         </tbody>
                     </table>
