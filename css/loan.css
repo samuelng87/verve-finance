@@ -37,6 +37,11 @@
   grid-column: 3 / 2;
 }
 
+.grid-item ul {
+  padding-top: 15px;
+  color: #626466;
+}
+
 /* Accordion Section */
 .accordion-section {
   grid-column: 1 / -1;

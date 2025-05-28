@@ -6,7 +6,7 @@
             <div>
                 <h2 class="text-3xl font-bold text-gray-800 mb-4">1. Peter & Susan's Financial Transformation</h2>
                 <p class="text-gray-600 mb-6">
-                    Peter and Susan, with a combined income of $95,000, were struggling with a home loan, car loan, personal loan, and multiple credit card debts. With no extra cash flow, they were unable to invest or plan for retirement. After consulting with our qualified financial experts at our Melbourne office, they restructured their finances, consolidated their debts, and freed up funds to invest in a property.
+                    Peter and Susan, with a combined income of $125,000, were struggling with a home loan, car loan, personal loan, and multiple credit card debts. With no extra cash flow, they were unable to invest or plan for retirement. After consulting with our qualified financial experts at our Melbourne office, they restructured their finances, consolidated their debts, and freed up funds to invest in a property.
                 </p>
                 <h2 class="text-2xl font-semibold text-gray-800 mb-4">2. Before Consolidation</h2>
                 <div class="table-container mb-6">

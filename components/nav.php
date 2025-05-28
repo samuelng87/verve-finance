@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-    <a class="nav-img" aria-current="page" href="build.php">
+    <a class="nav-img" aria-current="page" href="index.php">
       <img src="images/verve-finance-logo.png" alt="Verve Finance" class="verve-logo">
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,36 +39,5 @@
       </ul>
       <?php include('components/modal.php'); ?>
     </div>
-  </div>
-  
+  </div>  
 </nav>
-
-<!-- Custom JS -->
-<script>
-document.addEventListener('click', function (event) {
-  const navbarToggler = document.querySelector('.navbar-toggler');
-  const navbarCollapse = document.querySelector('#navbarScroll');
-  const isNavbarExpanded = navbarCollapse.classList.contains('show');
-  
-  // Handle closing mobile menu when clicking outside
-  if (isNavbarExpanded) {
-    const isClickInsideToggler = navbarToggler.contains(event.target);
-    const isClickInsideCollapse = navbarCollapse.contains(event.target);
-    
-    if (!isClickInsideToggler && !isClickInsideCollapse) {
-      navbarCollapse.classList.remove('show');
-      navbarToggler.setAttribute('aria-expanded', 'false');
-    }
-  }
-
-  // Handle FINANCES dropdown
-  const financesDropdown = document.querySelector('#financesDropdown');
-  const dropdownMenu = financesDropdown.nextElementSibling;
-  const isDropdownExpanded = dropdownMenu.classList.contains('show');
-  
-  if (!financesDropdown.contains(event.target) && !dropdownMenu.contains(event.target) && isDropdownExpanded) {
-    dropdownMenu.classList.remove('show');
-  }
-});
-
-</script>
