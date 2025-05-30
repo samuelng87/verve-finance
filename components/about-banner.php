@@ -1,5 +1,4 @@
 <div class="banner about-banner">
-<?php include('components/nav.php'); ?> 
 <div class="banner-content fade-background">
 <h1>ABOUT <span class="banner-content-span"> VERVE</span></h1>
 <p>Verve Finance is an Australian owned company.</p>

@@ -18,12 +18,12 @@
 }
 
 /* Hide Enquire Now button only in contact banner */
-.contact-banner .open-modal-btn {
+.page-contact .open-modal-btn {
   display: disable; /* This will completely hide the button */
 }
 
 /* OR if you want to show it but disable it: */
-.contact-banner .open-modal-btn {
+.page-contact .open-modal-btn {
   opacity: 0.5;
   pointer-events: none;
   cursor: not-allowed;
@@ -59,7 +59,9 @@
     top: 20%;
     left: 2.5%;
   }
-  .contact-banner .open-modal-btn {
+
+  /* Hide Enquire Now button only in contact banner */
+  .page-contact .open-modal-btn {
     display: none; /* This will completely hide the button */
   }
 }

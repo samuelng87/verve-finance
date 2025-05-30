@@ -1,6 +1,5 @@
 
 <div class="banner loan-banner">
-<?php include('components/nav.php'); ?> 
 <div class="banner-content">
 <h1 ><span class="banner-content-span">VERVE</span> LOANS</h1>
 <p>Whether you are a first home owner or a seasoned investor we have a loan that is perfect for you.</p> 

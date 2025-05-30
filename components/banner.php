@@ -1,5 +1,4 @@
 <div class="banner home-banner">
-<?php include('components/nav.php'); ?> 
 <div class="banner-content">
 <h1 >WELCOME TO <br> <span class="banner-content-span">
 VERVE</span> FINANCE</h1>

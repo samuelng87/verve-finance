@@ -1,5 +1,6 @@
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
+<div class="nav-container">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
     <a class="nav-img" aria-current="page" href="index.php">
       <img src="images/verve-finance-logo.png" alt="Verve Finance" class="verve-logo">
     </a>
